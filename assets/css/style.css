@@ -3,6 +3,7 @@ button, input {
     transition: .3s;
 }
 
-button:focus, input:focus {
-    box-shadow: 0 0 4px 6px #d5e4ff;
+button:hover, input:focus {
+    box-shadow: 0 0 0 3px white,
+                0 0 4px 6px #b3ccff;
 }
